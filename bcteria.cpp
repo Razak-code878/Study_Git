@@ -11,10 +11,9 @@ ll bitsCount(ll x, ll system){
     }
     
     return res;
-    
 }
 
-int main() {
+int main() {    
     ios_base::sync_with_stdio(false); cin.tie(0);
     
     ll x; cin >> x;
