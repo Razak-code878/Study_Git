@@ -3,6 +3,8 @@ using namespace std;
 #define ll long long
 
 ll bitsCount(ll x, ll system){
+
+    // init total
     ll res = 0;
     
     while (x > 0){
@@ -10,8 +12,9 @@ ll bitsCount(ll x, ll system){
         x /= system;
     }
     
+    // print
     return res;
-    
+
 }
 
 int main() {
